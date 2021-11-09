@@ -7,9 +7,9 @@
  */
 
 import java.util.Scanner;
-public class suma_numeros {
+public class suma{
 
-    public suma_numeros() {
+    public suma() {
     	
     }
      public static void main(String[] args) {
@@ -20,11 +20,17 @@ public class suma_numeros {
     	int numero1=read.nextInt();
     	System.out.println("la suma es "+(numero+numero1));
     	System.out.println("la multiplicacion es "+multiplicacion(numero,numero1));
+    	System.out.println();
+    	System.out.println("el porcentaje que represeta: "+numero+" con respecto a: "+numero1+" es: "+porcentaje(numero1,numero));
     }
     
    static int multiplicacion(int num, int num2){
     	return (num*num2);
     }
     
-    
+//codigo para calcular el porcentaje de un numero respecto a otro
+    static double porcentaje(int numero1, int numero2){
+    	double resultado=(numero2*100);
+    	return resultado/numero1;
+    }    
 }
