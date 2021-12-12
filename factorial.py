@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 from math import factorial
 
 print("que operacion desdea hacer \n1: suma\n2: resta\n3: mutiplicacion\n4: division\n5: factorial")
@@ -33,4 +31,3 @@ if(opcion==5):
     print("que numero desea que calculen el factorial")
     numero=int(input())
     print("la division da como resultado: ",factorial(numero))
->>>>>>> main
