@@ -53,7 +53,7 @@ public class Matricesexception {
         }catch(NegativeArraySizeException e){
             System.out.println("no se puede generar matrices con dimension negativa");
         }catch(InputMismatchException e){
-            System.out.println("no sea pendejo ponga un numero");
+            System.out.println("tipos no compatibles ponga un numero");
         }
     }
     
